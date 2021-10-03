@@ -1,0 +1,39 @@
+<svg width="381" height="344" viewBox="0 0 381 344" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<circle cx="79.4792" cy="161.479" r="63.6745" transform="rotate(14.5744 79.4792 161.479)" fill="#965000"/>
+<g clip-path="url(#clip0)">
+<rect x="45.8697" y="147.47" width="0.481771" height="0.478914" transform="rotate(45.0672 45.8697 147.47)" fill="url(#pattern0)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M91.1242 192.83C78.422 201.016 61.2862 199.541 50.1872 188.416C39.0882 177.291 37.654 160.152 45.8689 147.469L91.1242 192.83Z" fill="white"/>
+</g>
+<circle cx="255.297" cy="217.902" r="84.0714" transform="rotate(37.6388 255.297 217.902)" fill="#202020"/>
+<circle cx="255.297" cy="217.902" r="84.0714" transform="rotate(37.6388 255.297 217.902)" fill="#965000"/>
+<g clip-path="url(#clip1)">
+<rect x="207.527" y="225.885" width="0.636098" height="0.632326" transform="rotate(11.3039 207.527 225.885)" fill="url(#pattern1)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M290.486 242.468C282.55 260.773 262.659 271.729 242.313 267.662C221.966 263.595 207.816 245.835 207.526 225.885L290.486 242.468Z" fill="white"/>
+</g>
+<circle cx="188.232" cy="63.146" r="47.6276" transform="rotate(19.964 188.232 63.146)" fill="#965000"/>
+<g clip-path="url(#clip2)">
+<rect x="162.613" y="66.978" width="0.360358" height="0.358226" transform="rotate(15.0488 162.613 66.978)" fill="url(#pattern2)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M208.896 79.4218C203.732 89.4762 192.082 94.9334 180.731 91.8815C169.379 88.8296 162.037 78.266 162.612 66.9778L208.896 79.4218Z" fill="white"/>
+</g>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0" transform="scale(0.0075188 0.0185185)"/>
+</pattern>
+<pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0" transform="scale(0.0075188 0.0185185)"/>
+</pattern>
+<pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0" transform="scale(0.0075188 0.0185185)"/>
+</pattern>
+<clipPath id="clip0">
+<rect width="64.211" height="64.211" fill="white" transform="translate(59.3696 134) rotate(45.0672)"/>
+</clipPath>
+<clipPath id="clip1">
+<rect width="84.7798" height="84.7798" fill="white" transform="translate(212.461 201.194) rotate(11.3039)"/>
+</clipPath>
+<clipPath id="clip2">
+<rect width="48.0289" height="48.0289" fill="white" transform="translate(166.315 53.2025) rotate(15.0488)"/>
+</clipPath>
+<image id="image0" width="133" height="54" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIUAAAA2CAYAAADphFrnAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAEGklEQVR4nO3c22sdVRTH8e86xmqFQkXQh6BUCopSEJSC2D6KDyqIiOB/4Z9VlKoV6ouWgk0jgdZbG1O1tidWImqUtjnSNrVm+bD3jMnk5Fzmsteck/WBIRcys9dh/9gzs/dMRFXfBfbjXHCjA3Stq3Ct0vVQuKJuB1i2rsK1SrcjIj3gT+tKXCusisjfnfjDVdNSXFt0AbJQLBkW4tpjCf4PxTVgza4W1wJrhByEUIiIAouWFTlzF2MO8pEC4IJRMa4dLmbf5KEQkd+BVZNynLXV2P/A1pEC4HziYlw7bOn3Yii+AnrpanEt0CP0e25LKETkHnA2ZUXO3Fzs91xxpAAfLXaTHvB18ZfbQhFTM5eiImdu2ygB/UcKCKOFT2ZNtzUK1xKZvqEQkX/x0WLazcV+3mankQLCucZHi+m0Rp9ricyOofDRYqqd2WmUgMEjBYQ03ay3HmfsJvDNoD8YGIqYptN1VuTMnR40SsDwkQIRuYCvoE6LxdifAw0NRXQSuF6tHmfsOqEfhxopFCKyDhwHNioU5exsAMdjPw416kiBiPwKnCpblTP1Wey/kYwcimgBuDzmPs7WZRFZGGeHsUIRH9c6gS+YTYoeob/GMu5IgYjcAj4cdz+XnAIfxP4ay9ihABCRZeDzMvu6ZM6IyM9ldiwViqxR/D3UtuoS+qeU0qEQkQ3gGP4uatt0gWOxf0qRqhWo6gzwDnCw6rFcZT8B7/V7cGYclUMBeTDeBp6q43iulB+B94eta4yillAAqOp9wFvAM3Ud043sEuFOo3IgoMZQAKhqB3gTOFTncd1Ai8BHVa4himoNBYCqCvAG8Fzdx3bbfAt8nL0DWpfaQwF5MF4Hnm/i+A4ID92erDsQ0FAoIA/Gy8BLTbWxi30BnGoiENBgKDKqepBwOtnXdFu7QA84ISKN/uehxkMBoKp7gVfxC9AqFoFPRORO0w0lCUVGVQ8BrwEPpmx3wt0hXDt8l6rBpKEAUNV9hNOJz4AOd4Vwd5H0UYXkocio6mHgFWDGqoYWuwd8KiLnLBo3CwWAqj5CmOyatayjZVYIk1F/WRVgGgrIZ0GfBY4CjxmXY+k3YB5YqnN2sgzzUGwWb1+PAgeMS0lpGTgrIlesC8m0KhQZVZ0FjjDdi2uXgHkRWbEupKiVocjEa44jhHWUKk+JtcUGYb1i3vKaYZhWhyITb2NfBF4AHjAup4x14EtgIfXtZRkTEYpMfJjnScJp5WngIduKBroF/EA4TVyt61mHFCYqFJvFBbcnCAE5ADyK7edR4A/CM5LfA9eaWrBq2sSGokhV9xDmOx6P2yywt8EmbxPmFH6J24qI3G2wvWSmJhT9xIW4hwvbfsJ1yf3Ank1fZwgziXeBfzZ9XQduEN7azjcRuZ3ys6T0H/n0ATTGcwBTAAAAAElFTkSuQmCC"/>
+</defs>
+</svg>
