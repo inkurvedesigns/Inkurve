@@ -31,47 +31,7 @@ img {
 .container {
   max-width: 1260px;
   margin: 0 auto;
-  padding: 0 5%;
-}
-
-.navbar {
-  background-color: var(--not-so-black);
-  padding: 16px 0;
-}
-.navbar .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   width: 100%;
-}
-.header-logo {
-  width: 150px;
-}
-.nav-links {
-  display: none;
-}
-.nav-item {
-  color: var(--accent);
-  padding: 12px 24px;
-}
-.viewport-1 {
-  min-height: 100vh;
-  background-color: var(--not-so-black);
-  color: var(--white);
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-.intro {
-  display: grid;
-  gap: 16px;
-  padding: 60px 0;
-}
-.intro h2 {
-  font-size: 64px;
-  width: 100%;
-  max-width: 1260px;
-  margin: 0 auto;
-  /* padding: 0 5%; */
 }
 
 header {
@@ -87,7 +47,7 @@ header {
   background-color: var(--not-so-black);
 }
 .navbar .container {
-  grid-column: 2 / span 10;
+  grid-column: 2/span 10;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -117,8 +77,8 @@ header {
   color: var(--white);
 }
 .viewport-1 .container {
-  grid-column: 2 / span 10;
-  grid-row: 4 / span 8;
+  grid-column: 2/span 10;
+  grid-row: 4/span 8;
 }
 .intro {
   display: grid;
@@ -152,10 +112,6 @@ header {
   width: 60px;
 }
 
-.viewport-2 {
-  height: 100vh;
-  background-color: var(--grey);
-}
 .scroll-down {
   font-size: 14px;
   color: #7e7e7e;
