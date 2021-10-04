@@ -34,6 +34,9 @@ img {
   padding: 64px 32px;
   width: 100%;
 }
+.accent {
+  color: var(--accent);
+}
 
 header {
   display: none;
@@ -80,10 +83,6 @@ header {
   font-size: 27px;
   font-family: Lora;
   padding-bottom: 16px;
-}
-.cs {
-  color: var(--accent);
-  font-family: Lora;
 }
 .vp2-sub {
   font-size: 14px;
@@ -147,6 +146,69 @@ header {
   line-height: 21px;
   font-weight: 600;
   color: var(--not-so-black);
+}
+
+.vp-4-header,
+.vp-4-hr,
+.hr {
+  font-family: Lora;
+  font-size: 21px;
+  line-height: 27px;
+}
+.vp-4-hr {
+  font-weight: 700;
+}
+.vp-4-hr,
+.vp-4-sub,
+.vp-4-ps,
+.vp-4-img,
+.vp-6-body,
+.vp-6-img,
+.vp-6-sub,
+.vp-6-ps {
+  padding-top: 32px;
+}
+.vp-4-sub,
+.vp-4-ps {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.viewport-5 {
+  display: grid;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--not-so-black);
+  color: var(--white);
+}
+.vp-5-header h2 {
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 43px;
+  padding-bottom: 64px;
+}
+
+.viewport-6 {
+  min-height: 100vh;
+  display: grid;
+}
+.vp-6-header h2 {
+  font-family: Lora;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 35px;
+}
+.vp-6-body {
+  font-size: 21px;
+  line-height: 27px;
+}
+.vp-6-img img {
+  margin: 0 auto;
+}
+.vp-6-sub,
+.vp-6-ps {
+  font-size: 14px;
+  line-height: 21px;
 }
 
 @media screen and (min-width: 768px) {
