@@ -391,6 +391,7 @@ header {
     grid-column: 2 / span 10;
     grid-row: 2 / span 6;
     margin-left: 0;
+    margin: 0 auto;
     transform: rotateZ(-6deg);
   }
   .vp-3-header {
@@ -431,7 +432,7 @@ header {
   }
   .vp-3-bottom .container {
     grid-column: 2 / span 10;
-    grid-row: 2 / span 3;
+    grid-row: 2 / span 2;
   }
   .bottom-body {
     font-size: 21px;
