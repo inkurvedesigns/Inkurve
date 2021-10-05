@@ -219,6 +219,63 @@ header {
   line-height: 21px;
 }
 
+.viewport-7 {
+  background: linear-gradient(269.76deg, #e8a94a 0.14%, #dc8a3e 99.74%);
+}
+.viewport-7 .container {
+  padding-bottom: 0;
+}
+.vp-7-header {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 45px;
+  color: var(--white);
+  padding-bottom: 16px;
+}
+.vp-7-sub {
+  font-size: 14px;
+  line-height: 21px;
+  color: #965000;
+}
+.vp-7-img {
+  width: 120px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+.vp-7-bottom {
+  background-color: var(--white);
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.vp-7-bottom h4 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.mail {
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 27px;
+  padding-bottom: 20px;
+}
+.vp-7-ps {
+  font-size: 14px;
+  line-height: 14px;
+  color: #DD8C40;
+}
+.vp-7-meme {
+  padding: 20px;
+}
+.copy {
+  font-size: 14px;
+  line-height: 27px;
+  background: linear-gradient(269.76deg, rgba(232 169 74 / 78%) 0.14%, rgba(220 138 62 / 78%) 99.74%);
+  color: #B26200;
+  padding: 10px 0;
+  text-align: center;
+}
+
 @media screen and (min-width: 768px) {
   .container {
     padding: 0;
@@ -288,7 +345,8 @@ header {
   .viewport-2,
   .viewport-4,
   .viewport-5,
-  .viewport-6 {
+  .viewport-6,
+  .viewport-7 .container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(12, 1fr);
@@ -455,5 +513,67 @@ header {
   .vp-6-img {
     grid-column: 8 / span 3;
     grid-row: 4 / span 5;
+  }
+
+  .viewport-7 {
+    background: linear-gradient(269.76deg, #e8a94a 0.14%, #dc8a3e 99.74%);
+  }
+  .viewport-7 .container {
+    grid-template-rows: repeat(11, 1fr);
+    padding-bottom: 0;
+  }
+  .vp-7-header {
+    grid-column: 2 / span 8;
+    grid-row: 3/span 2;
+    font-size: 58px;
+    line-height: 58px;
+    max-width: 700px;
+    padding-bottom: 0;
+  }
+  .vp-7-sub {
+    grid-column: 2/span 5;
+    grid-row: 5/span 2;
+    font-size: 21px;
+    line-height: 27px;
+  }
+  .vp-7-img {
+    grid-column: 9/span 3;
+    grid-row: 3/span 4;
+    width: 216px;
+    height: 216px;
+    padding-top: 0;
+  }
+  .vp-7-bottom {
+    grid-column: span 12;
+    grid-row: 7/span 5;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+  }
+  .vp-7-bottom-text {
+    margin-bottom: 115px;
+  }
+  .vp-7-bottom h4 {
+    font-size: 14px;
+    line-height: 27px;
+  }
+  .mail {
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 27px;
+    padding-bottom: 40px;
+  }
+  .vp-7-ps {
+    text-align: end;
+    font-size: 21px;
+    line-height: 21px;
+  }
+  .vp-7-meme {
+    padding: 0;
+  }
+  .copy {
+    font-size: 21px;
+    padding: 20px 0;
   }
 }
