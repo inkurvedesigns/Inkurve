@@ -37,14 +37,20 @@ img {
 .accent {
   color: var(--accent);
 }
+.btn {
+  background-color: var(--accent);
+  color: var(--white);
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
 
 main {
   overflow: hidden;
 }
 header {
-  display: none;
-}
-.nav-links {
   display: none;
 }
 
@@ -80,31 +86,37 @@ header {
   font-size: 14px;
   line-height: 21px;
 }
+.scroll-down {
+  display: none;
+}
 
 .vp2-header h2 {
-  max-width: 750px;
-  font-size: 27px;
-  font-family: 'Times New Roman', Times, serif;
-  padding-bottom: 16px;
-}
-.cs {
-  font-family: 'Times New Roman', Times, serif;
+  color: #451F14;
+  max-width: 810px;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 27px;
+  padding-bottom: 20px;
 }
 .vp2-sub {
   font-size: 14px;
   line-height: 21px;
-  font-style: italic;
 }
 .vp2-body {
   display: grid;
   gap: 24px;
-  padding-top: 40px;
+  padding-top: 48px;
 }
 .vp2-desc {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 40px;
+  gap: 48px;
+}
+.vp2-desc-text {
+  max-width: 410px;
+  font-size: 21px;
+  line-height: 27px;
 }
 
 .viewport-3 {
@@ -114,23 +126,19 @@ header {
 .vp-3-top {
   background: linear-gradient(269.76deg, #e8a94a 0.14%, #dc8a3e 99.74%);
 }
-.vp-3-top .container {
-  transform: rotateZ(-12.2deg);
-  margin-left: 40px;
-}
 .vp-3-header {
   max-width: 225px;
 }
 .lucky {
   font-size: 45px;
-  font-weight: 900;
+  font-weight: 600;
   line-height: 58px;
   color: #965000;
   padding-bottom: 24px;
 }
 .vp-3-header h2 {
   font-size: 27px;
-  font-weight: 900;
+  font-weight: 600;
   line-height: 35px;
   color: var(--white);
   padding-bottom: 24px;
@@ -138,9 +146,11 @@ header {
 .vp-3-sub {
   max-width: 180px;
   font-size: 14px;
-  font-weight: 600;
   line-height: 21px;
   color: var(--white);
+}
+.vp-3-sub span {
+  font-weight: 600;
 }
 .vp-3-emojis {
   position: absolute;
@@ -152,24 +162,33 @@ header {
   max-width: 563px;
   font-size: 14px;
   line-height: 21px;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--not-so-black);
 }
 
 .vp-4-header,
 .vp-4-hr,
 .hr {
+  max-width: 165px;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 21px;
-  line-height: 27px;
+  font-size: 14px;
+  line-height: 17.92px;
 }
 .vp-4-hr {
+  max-width: 110px;
   font-weight: 700;
+  padding-top: 20px;
 }
-.vp-4-hr,
-.vp-4-sub,
+.vp-4-sub {
+  font-weight: 500;
+  padding: 48px 0 16px;
+}
+.vp-4-img {
+  width: 180px;
+  margin: 0 auto;
+  padding-top: 48px;
+}
 .vp-4-ps,
-.vp-4-img,
 .vp-6-body,
 .vp-6-img,
 .vp-6-sub,
@@ -189,11 +208,17 @@ header {
   background-color: var(--not-so-black);
   color: var(--white);
 }
+.vp-5-header {
+  padding-bottom: 80px;
+}
 .vp-5-header h2 {
   font-size: 34px;
   font-weight: 600;
   line-height: 43px;
-  padding-bottom: 64px;
+  padding-bottom: 24px;
+}
+.vp-5-meme {
+  padding-bottom: 80px;
 }
 
 .viewport-6 {
@@ -201,9 +226,8 @@ header {
   display: grid;
 }
 .vp-6-header h2 {
-  font-family: 'Times New Roman', Times, serif;
   font-size: 27px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 35px;
 }
 .vp-6-body {
@@ -277,6 +301,11 @@ header {
 }
 
 @media screen and (min-width: 768px) {
+  .btn {
+    font-size: 18px;
+    line-height: 27px;
+    width: 160px;
+  }
   .container {
     padding: 0;
   }
@@ -302,15 +331,6 @@ header {
   .header-logo {
     width: 150px;
     visibility: hidden;
-  }
-  .nav-links {
-    display: flex;
-    gap: 32px;
-  }
-  .nav-item {
-    font-size: 14px;
-    color: var(--accent);
-    padding: 12px 0;
   }
   .viewport-1 {
     display: grid;
@@ -363,7 +383,8 @@ header {
     grid-row: 3 / span 9;
   }
   .vp2-header h2 {
-    font-size: 48px;
+    font-size: 45px;
+    line-height: 58px;
     padding-bottom: 32px;
   }
 
@@ -390,9 +411,6 @@ header {
   .vp-3-top .container {
     grid-column: 2 / span 10;
     grid-row: 2 / span 6;
-    margin-left: 0;
-    margin: 0 auto;
-    transform: rotateZ(-6deg);
   }
   .vp-3-header {
     max-width: 100%;
@@ -401,10 +419,6 @@ header {
   }
   .lucky {
     font-size: 58px;
-    font-weight: 900;
-    line-height: 58px;
-    color: #965000;
-    padding-bottom: 24px;
   }
   .vp-3-header h2 {
     font-size: 45px;
@@ -448,37 +462,41 @@ header {
     row-gap: 20px;
   }
   .vp-4-img {
-    grid-column: 7 / span 4;
-    grid-row: 2 / span 7;
+    grid-column: 8 / span 3;
+    grid-row: 3 / span 5;
+    width: 100%;
     padding-top: 0;
   }
   .vp-4-body {
-    grid-column: span 6;
+    grid-column: span 7;
     grid-row: span 7;
   }
   .vp-4-ps {
     grid-column: span 6;
-    grid-row: 8 / span 2;
+    grid-row: 9 / span 1;
     padding-top: 0;
   }
   .vp-4-header,
   .vp-4-hr,
   .hr,
   .vp-6-body {
-    font-size: 35px;
-    line-height: 45px;
+    max-width: 350px;
+    font-size: 21px;
+    line-height: 27px;
   }
   .vp-4-hr {
+    max-width: 100%;
     padding-top: 0;
   }
   .vp-4-sub {
-    font-size: 21px;
-    line-height: 27px;
-    max-width: 540px;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 35px;
     padding-top: 120px;
   }
 
   .vp-5-header h2 {
+    max-width: 800px;
     font-size: 47px;
     line-height: 58px;
   }
