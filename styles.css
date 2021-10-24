@@ -56,6 +56,13 @@ header {
   width: 100%;
   backdrop-filter: blur(8px);
   z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  transition: 250ms ease-in-out;
+}
+.show {
+  opacity: 1;
+  visibility: visible;
 }
 .navbar {
   padding: 20px 32px;
@@ -346,7 +353,7 @@ header {
   }
   .viewport-1 .container {
     grid-column: 2 / span 10;
-    grid-row: 4 / span 8;
+    grid-row: 3 / span 8;
   }
   .intro {
     display: grid;
