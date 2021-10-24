@@ -138,46 +138,46 @@ header {
   min-height: calc(100vh);
 }
 .vp-3-top {
-  background: linear-gradient(269.76deg, #e8a94a 0.14%, #dc8a3e 99.74%);
+  background-color: var(--not-so-black);
+  color: var(--white);
 }
 .vp-3-header {
-  max-width: 225px;
-}
-.lucky {
-  font-size: 45px;
-  font-weight: 600;
-  line-height: 58px;
-  color: #965000;
   padding-bottom: 24px;
 }
-.vp-3-header h2 {
+.lucky {
+  color: var(--accent);
+}
+.vp-3-header h2,
+.lucky {
   font-size: 27px;
   font-weight: 600;
   line-height: 35px;
-  color: var(--white);
-  padding-bottom: 24px;
 }
 .vp-3-sub {
   max-width: 180px;
   font-size: 14px;
   line-height: 21px;
-  color: var(--white);
 }
 .vp-3-sub span {
   font-weight: 600;
 }
+.vp-3-bottom {
+  margin-top: -50px;
+  background-color: var(--accent);
+  color: var(--white);
+}
 .vp-3-emojis {
-  position: absolute;
-  bottom: 15%;
-  right: 0;
-  width: 35%;
+  width: 50%;
+  margin-left: auto;
+}
+.vp-3-emojis img {
+  margin-left: auto;
 }
 .bottom-body {
-  max-width: 563px;
+  max-width: 600px;
   font-size: 14px;
   line-height: 21px;
   font-weight: 500;
-  color: var(--not-so-black);
 }
 
 .vp-4-header,
@@ -308,8 +308,12 @@ header {
 .copy {
   font-size: 14px;
   line-height: 27px;
-  background: linear-gradient(269.76deg, rgba(232 169 74 / 78%) 0.14%, rgba(220 138 62 / 78%) 99.74%);
-  color: #B26200;
+  background: linear-gradient(
+    269.76deg,
+    rgba(232 169 74 / 78%) 0.14%,
+    rgba(220 138 62 / 78%) 99.74%
+  );
+  color: #b26200;
   padding: 10px 0;
   text-align: center;
 }
@@ -410,30 +414,21 @@ header {
   }
   .vp-3-top .container {
     grid-column: 2 / span 10;
-    grid-row: 2 / span 6;
+    grid-row: 2 / span 7;
   }
-  .vp-3-header {
-    max-width: 100%;
-    margin-left: 0;
-    transform: none;
-  }
+  .vp-3-header h2,
   .lucky {
-    font-size: 58px;
-  }
-  .vp-3-header h2 {
     font-size: 45px;
     line-height: 58px;
+  }
+  .vp-3-top-body {
+    display: flex;
   }
   .vp-3-sub {
     max-width: 100%;
     font-size: 21px;
     line-height: 27px;
     transform: none;
-  }
-  .vp-3-emojis {
-    position: absolute;
-    bottom: 50px;
-    right: 0;
   }
   .vp-3-bottom {
     display: grid;

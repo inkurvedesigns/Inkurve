@@ -1,39 +1,39 @@
-<svg width="381" height="344" viewBox="0 0 381 344" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<circle cx="79.4792" cy="161.479" r="63.6745" transform="rotate(14.5744 79.4792 161.479)" fill="#965000"/>
-<g clip-path="url(#clip0)">
-<rect x="45.8697" y="147.47" width="0.481771" height="0.478914" transform="rotate(45.0672 45.8697 147.47)" fill="url(#pattern0)"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M91.1242 192.83C78.422 201.016 61.2862 199.541 50.1872 188.416C39.0882 177.291 37.654 160.152 45.8689 147.469L91.1242 192.83Z" fill="white"/>
+<svg width="285" height="258" viewBox="0 0 285 258" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<circle cx="59.4529" cy="120.791" r="47.6305" transform="rotate(14.5744 59.4529 120.791)" fill="white"/>
+<g clip-path="url(#clip0_97:258)">
+<rect x="34.3121" y="110.312" width="0.36038" height="0.358243" transform="rotate(45.0672 34.3121 110.312)" fill="url(#pattern0)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M68.1638 144.243C58.6621 150.366 45.844 149.263 37.5416 140.941C29.2392 132.619 28.1664 119.799 34.3114 110.312L68.1638 144.243Z" fill="#E49E46"/>
 </g>
-<circle cx="255.297" cy="217.902" r="84.0714" transform="rotate(37.6388 255.297 217.902)" fill="#202020"/>
-<circle cx="255.297" cy="217.902" r="84.0714" transform="rotate(37.6388 255.297 217.902)" fill="#965000"/>
-<g clip-path="url(#clip1)">
-<rect x="207.527" y="225.885" width="0.636098" height="0.632326" transform="rotate(11.3039 207.527 225.885)" fill="url(#pattern1)"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M290.486 242.468C282.55 260.773 262.659 271.729 242.313 267.662C221.966 263.595 207.816 245.835 207.526 225.885L290.486 242.468Z" fill="white"/>
+<circle cx="190.97" cy="162.997" r="62.8881" transform="rotate(37.6388 190.97 162.997)" fill="#202020"/>
+<circle cx="190.97" cy="162.997" r="62.8881" transform="rotate(37.6388 190.97 162.997)" fill="white"/>
+<g clip-path="url(#clip1_97:258)">
+<rect x="155.237" y="168.97" width="0.475821" height="0.473" transform="rotate(11.3039 155.237 168.97)" fill="url(#pattern1)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M217.293 181.374C211.356 195.067 196.477 203.262 181.257 200.22C166.038 197.177 155.453 183.892 155.236 168.969L217.293 181.374Z" fill="#E49E46"/>
 </g>
-<circle cx="188.232" cy="63.146" r="47.6276" transform="rotate(19.964 188.232 63.146)" fill="#965000"/>
-<g clip-path="url(#clip2)">
-<rect x="162.613" y="66.978" width="0.360358" height="0.358226" transform="rotate(15.0488 162.613 66.978)" fill="url(#pattern2)"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M208.896 79.4218C203.732 89.4762 192.082 94.9334 180.731 91.8815C169.379 88.8296 162.037 78.266 162.612 66.9778L208.896 79.4218Z" fill="white"/>
+<circle cx="140.803" cy="47.2352" r="35.6269" transform="rotate(19.964 140.803 47.2352)" fill="white"/>
+<g clip-path="url(#clip2_97:258)">
+<rect x="121.64" y="50.1018" width="0.269559" height="0.267964" transform="rotate(15.0488 121.64 50.1018)" fill="url(#pattern2)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M156.26 59.4101C152.398 66.9311 143.683 71.0133 135.192 68.7303C126.701 66.4474 121.209 58.5455 121.639 50.1016L156.26 59.4101Z" fill="#DB9647"/>
 </g>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0" transform="scale(0.0075188 0.0185185)"/>
+<use xlink:href="#image0_97:258" transform="scale(0.0075188 0.0185185)"/>
 </pattern>
 <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0" transform="scale(0.0075188 0.0185185)"/>
+<use xlink:href="#image0_97:258" transform="scale(0.0075188 0.0185185)"/>
 </pattern>
 <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0" transform="scale(0.0075188 0.0185185)"/>
+<use xlink:href="#image0_97:258" transform="scale(0.0075188 0.0185185)"/>
 </pattern>
-<clipPath id="clip0">
-<rect width="64.211" height="64.211" fill="white" transform="translate(59.3696 134) rotate(45.0672)"/>
+<clipPath id="clip0_97:258">
+<rect width="48.0318" height="48.0318" fill="white" transform="translate(44.4103 100.236) rotate(45.0672)"/>
 </clipPath>
-<clipPath id="clip1">
-<rect width="84.7798" height="84.7798" fill="white" transform="translate(212.461 201.194) rotate(11.3039)"/>
+<clipPath id="clip1_97:258">
+<rect width="63.4179" height="63.4179" fill="white" transform="translate(158.928 150.5) rotate(11.3039)"/>
 </clipPath>
-<clipPath id="clip2">
-<rect width="48.0289" height="48.0289" fill="white" transform="translate(166.315 53.2025) rotate(15.0488)"/>
+<clipPath id="clip2_97:258">
+<rect width="35.9271" height="35.9271" fill="white" transform="translate(124.409 39.7972) rotate(15.0488)"/>
 </clipPath>
-<image id="image0" width="133" height="54" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIUAAAA2CAYAAADphFrnAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAEGklEQVR4nO3c22sdVRTH8e86xmqFQkXQh6BUCopSEJSC2D6KDyqIiOB/4Z9VlKoV6ouWgk0jgdZbG1O1tidWImqUtjnSNrVm+bD3jMnk5Fzmsteck/WBIRcys9dh/9gzs/dMRFXfBfbjXHCjA3Stq3Ct0vVQuKJuB1i2rsK1SrcjIj3gT+tKXCusisjfnfjDVdNSXFt0AbJQLBkW4tpjCf4PxTVgza4W1wJrhByEUIiIAouWFTlzF2MO8pEC4IJRMa4dLmbf5KEQkd+BVZNynLXV2P/A1pEC4HziYlw7bOn3Yii+AnrpanEt0CP0e25LKETkHnA2ZUXO3Fzs91xxpAAfLXaTHvB18ZfbQhFTM5eiImdu2ygB/UcKCKOFT2ZNtzUK1xKZvqEQkX/x0WLazcV+3mankQLCucZHi+m0Rp9ricyOofDRYqqd2WmUgMEjBYQ03ay3HmfsJvDNoD8YGIqYptN1VuTMnR40SsDwkQIRuYCvoE6LxdifAw0NRXQSuF6tHmfsOqEfhxopFCKyDhwHNioU5exsAMdjPw416kiBiPwKnCpblTP1Wey/kYwcimgBuDzmPs7WZRFZGGeHsUIRH9c6gS+YTYoeob/GMu5IgYjcAj4cdz+XnAIfxP4ay9ihABCRZeDzMvu6ZM6IyM9ldiwViqxR/D3UtuoS+qeU0qEQkQ3gGP4uatt0gWOxf0qRqhWo6gzwDnCw6rFcZT8B7/V7cGYclUMBeTDeBp6q43iulB+B94eta4yillAAqOp9wFvAM3Ud043sEuFOo3IgoMZQAKhqB3gTOFTncd1Ai8BHVa4himoNBYCqCvAG8Fzdx3bbfAt8nL0DWpfaQwF5MF4Hnm/i+A4ID92erDsQ0FAoIA/Gy8BLTbWxi30BnGoiENBgKDKqepBwOtnXdFu7QA84ISKN/uehxkMBoKp7gVfxC9AqFoFPRORO0w0lCUVGVQ8BrwEPpmx3wt0hXDt8l6rBpKEAUNV9hNOJz4AOd4Vwd5H0UYXkocio6mHgFWDGqoYWuwd8KiLnLBo3CwWAqj5CmOyatayjZVYIk1F/WRVgGgrIZ0GfBY4CjxmXY+k3YB5YqnN2sgzzUGwWb1+PAgeMS0lpGTgrIlesC8m0KhQZVZ0FjjDdi2uXgHkRWbEupKiVocjEa44jhHWUKk+JtcUGYb1i3vKaYZhWhyITb2NfBF4AHjAup4x14EtgIfXtZRkTEYpMfJjnScJp5WngIduKBroF/EA4TVyt61mHFCYqFJvFBbcnCAE5ADyK7edR4A/CM5LfA9eaWrBq2sSGokhV9xDmOx6P2yywt8EmbxPmFH6J24qI3G2wvWSmJhT9xIW4hwvbfsJ1yf3Ank1fZwgziXeBfzZ9XQduEN7azjcRuZ3ys6T0H/n0ATTGcwBTAAAAAElFTkSuQmCC"/>
+<image id="image0_97:258" width="133" height="54" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIUAAAA2CAYAAADphFrnAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAEGklEQVR4nO3c22sdVRTH8e86xmqFQkXQh6BUCopSEJSC2D6KDyqIiOB/4Z9VlKoV6ouWgk0jgdZbG1O1tidWImqUtjnSNrVm+bD3jMnk5Fzmsteck/WBIRcys9dh/9gzs/dMRFXfBfbjXHCjA3Stq3Ct0vVQuKJuB1i2rsK1SrcjIj3gT+tKXCusisjfnfjDVdNSXFt0AbJQLBkW4tpjCf4PxTVgza4W1wJrhByEUIiIAouWFTlzF2MO8pEC4IJRMa4dLmbf5KEQkd+BVZNynLXV2P/A1pEC4HziYlw7bOn3Yii+AnrpanEt0CP0e25LKETkHnA2ZUXO3Fzs91xxpAAfLXaTHvB18ZfbQhFTM5eiImdu2ygB/UcKCKOFT2ZNtzUK1xKZvqEQkX/x0WLazcV+3mankQLCucZHi+m0Rp9ricyOofDRYqqd2WmUgMEjBYQ03ay3HmfsJvDNoD8YGIqYptN1VuTMnR40SsDwkQIRuYCvoE6LxdifAw0NRXQSuF6tHmfsOqEfhxopFCKyDhwHNioU5exsAMdjPw416kiBiPwKnCpblTP1Wey/kYwcimgBuDzmPs7WZRFZGGeHsUIRH9c6gS+YTYoeob/GMu5IgYjcAj4cdz+XnAIfxP4ay9ihABCRZeDzMvu6ZM6IyM9ldiwViqxR/D3UtuoS+qeU0qEQkQ3gGP4uatt0gWOxf0qRqhWo6gzwDnCw6rFcZT8B7/V7cGYclUMBeTDeBp6q43iulB+B94eta4yillAAqOp9wFvAM3Ud043sEuFOo3IgoMZQAKhqB3gTOFTncd1Ai8BHVa4himoNBYCqCvAG8Fzdx3bbfAt8nL0DWpfaQwF5MF4Hnm/i+A4ID92erDsQ0FAoIA/Gy8BLTbWxi30BnGoiENBgKDKqepBwOtnXdFu7QA84ISKN/uehxkMBoKp7gVfxC9AqFoFPRORO0w0lCUVGVQ8BrwEPpmx3wt0hXDt8l6rBpKEAUNV9hNOJz4AOd4Vwd5H0UYXkocio6mHgFWDGqoYWuwd8KiLnLBo3CwWAqj5CmOyatayjZVYIk1F/WRVgGgrIZ0GfBY4CjxmXY+k3YB5YqnN2sgzzUGwWb1+PAgeMS0lpGTgrIlesC8m0KhQZVZ0FjjDdi2uXgHkRWbEupKiVocjEa44jhHWUKk+JtcUGYb1i3vKaYZhWhyITb2NfBF4AHjAup4x14EtgIfXtZRkTEYpMfJjnScJp5WngIduKBroF/EA4TVyt61mHFCYqFJvFBbcnCAE5ADyK7edR4A/CM5LfA9eaWrBq2sSGokhV9xDmOx6P2yywt8EmbxPmFH6J24qI3G2wvWSmJhT9xIW4hwvbfsJ1yf3Ank1fZwgziXeBfzZ9XQduEN7azjcRuZ3ys6T0H/n0ATTGcwBTAAAAAElFTkSuQmCC"/>
 </defs>
 </svg>
